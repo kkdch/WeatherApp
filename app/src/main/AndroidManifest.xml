@@ -31,6 +31,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.samsung.chenhandai.weatherapp.MainActivity" />
         </activity>
+        <provider
+            android:authorities="com.samsung.chenhandai.weatherapp"
+            android:name=".data.WeatherProvider" />
     </application>
 
 </manifest>
